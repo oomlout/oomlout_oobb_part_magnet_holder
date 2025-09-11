@@ -143,6 +143,17 @@ def make_scad(**kwargs):
         p["magnet_offset"] = 15
         ps.append(p)
 
+        p = {}        
+        p["magnet"] = "hardware_magnet_cylinder_10_mm_diameter_3_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "cylinder"
+        p["magnet_diameter"] = 10
+        p["magnet_depth"] = 3
+        p["magnet_multiple"] = 2
+        p["magnet_offset"] = 12
+        ps.append(p)
+
 
         for p in ps:
             part = copy.deepcopy(part_default)

@@ -1,5 +1,7 @@
 * [part](part)
   * [magnet_holder](part/magnet_holder)
+    * [3_width_1_height_3_5_mm_depth](part/magnet_holder/3_width_1_height_3_5_mm_depth)
+      * [hardware_magnet_cylinder_10_mm_diameter_3_mm_depth_magnet_2_multiple_extra](part/magnet_holder/3_width_1_height_3_5_mm_depth/hardware_magnet_cylinder_10_mm_diameter_3_mm_depth_magnet_2_multiple_extra)
     * [3_width_1_height_6_5_mm_depth](part/magnet_holder/3_width_1_height_6_5_mm_depth)
       * [hardware_magnet_cylinder_6_mm_diameter_6_mm_depth_magnet_3_multiple_extra](part/magnet_holder/3_width_1_height_6_5_mm_depth/hardware_magnet_cylinder_6_mm_diameter_6_mm_depth_magnet_3_multiple_extra)
     * [4_width_1_height_3_5_mm_depth](part/magnet_holder/4_width_1_height_3_5_mm_depth)
