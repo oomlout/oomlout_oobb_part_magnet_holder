@@ -425,7 +425,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: laser
-          m: '#'
           pos:
           - 0
           - 0
@@ -441,7 +440,6 @@ thing:
             h: 250
             height: 1
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -456,7 +454,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id013
           - 0
           - 0
@@ -472,7 +469,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id013
           r: 1.5
           shape: cylinder
@@ -484,7 +480,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id013
           r: 1.5
           radius: 1.5
@@ -497,7 +492,6 @@ thing:
           h: 1.9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos:
           - 0
           - 0
@@ -513,7 +507,6 @@ thing:
             h: 250
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -528,7 +521,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id014
           - 0
           - 0
@@ -544,7 +536,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id014
           r: 1.8
           shape: cylinder
@@ -556,7 +547,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id014
           r: 1.8
           radius: 1.8
@@ -569,7 +559,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: 'true'
-          m: '#'
           pos:
           - 0
           - 0
@@ -585,7 +574,6 @@ thing:
             h: 250
             height: 1
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -600,7 +588,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id015
           - 0
           - 0
@@ -616,7 +603,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id015
           r: 1.5
           shape: cylinder
@@ -628,7 +614,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id015
           r: 1.5
           radius: 1.5
@@ -652,7 +637,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: laser
-          m: '#'
           pos:
           - 0
           - 0
@@ -668,7 +652,6 @@ thing:
             h: 250
             height: 1
             inclusion: laser
-            m: '#'
             pos:
             - 0
             - 0
@@ -683,7 +666,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id016
           - 0
           - 0
@@ -699,7 +681,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id016
           r: 1.5
           shape: cylinder
@@ -711,7 +692,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id016
           r: 1.5
           radius: 1.5
@@ -724,7 +704,6 @@ thing:
           h: 1.9
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos:
           - 0
           - 0
@@ -740,7 +719,6 @@ thing:
             h: 250
             height: 1
             inclusion: 3dpr
-            m: '#'
             pos:
             - 0
             - 0
@@ -755,7 +733,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id017
           - 0
           - 0
@@ -771,7 +748,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id017
           r: 1.8
           shape: cylinder
@@ -783,7 +759,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id017
           r: 1.8
           radius: 1.8
@@ -796,7 +771,6 @@ thing:
           h: 1.7
           height: 1
           inclusion: 'true'
-          m: '#'
           pos:
           - 0
           - 0
@@ -812,7 +786,6 @@ thing:
             h: 250
             height: 1
             inclusion: 'true'
-            m: '#'
             pos:
             - 0
             - 0
@@ -827,7 +800,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: laser
-          m: '#'
           pos: &id018
           - 0
           - 0
@@ -843,7 +815,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 3dpr
-          m: '#'
           pos: *id018
           r: 1.5
           shape: cylinder
@@ -855,7 +826,6 @@ thing:
           h: 7.0
           height: 1
           inclusion: 'true'
-          m: '#'
           pos: *id018
           r: 1.5
           radius: 1.5
@@ -1085,7 +1055,6 @@ thing:
     extra: hardware_magnet_cylinder_6_mm_diameter_6_mm_depth_magnet_3_multiple
     filter: ''
     height: 1
-    m: '#'
     magnet: hardware_magnet_cylinder_6_mm_diameter_6_mm_depth
     magnet_depth: 6
     magnet_diameter: 6
@@ -1121,7 +1090,6 @@ thing:
     extra: hardware_magnet_cylinder_6_mm_diameter_6_mm_depth_magnet_3_multiple
     filter: ''
     height: 1
-    m: '#'
     magnet: hardware_magnet_cylinder_6_mm_diameter_6_mm_depth
     magnet_depth: 6
     magnet_diameter: 6
