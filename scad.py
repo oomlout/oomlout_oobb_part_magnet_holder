@@ -120,38 +120,53 @@ def make_scad(**kwargs):
         
         ps = []
         
-        p = {}        
-        p["magnet"] = "hardware_magnet_cylinder_6_mm_diameter_6_mm_depth"
-        p["width"] = 3
-        p["height"] = 1
-        p["magnet_shape"] = "cylinder"
-        p["magnet_diameter"] = 6
-        p["magnet_depth"] = 6
-        p["magnet_multiple"] = 3
-        p["magnet_offset"] = 7.5
-        ps.append(p)
+        # p = {}        
+        # p["magnet"] = "hardware_magnet_cylinder_6_mm_diameter_6_mm_depth"
+        # p["width"] = 3
+        # p["height"] = 1
+        # p["magnet_shape"] = "cylinder"
+        # p["magnet_diameter"] = 6
+        # p["magnet_depth"] = 6
+        # p["magnet_multiple"] = 3
+        # p["magnet_offset"] = 7.5
+        # ps.append(p)
 
         
-        p = {}        
-        p["magnet"] = "hardware_magnet_cylinder_12_mm_diameter_3_mm_depth"
+        # p = {}        
+        # p["magnet"] = "hardware_magnet_cylinder_12_mm_diameter_3_mm_depth"
+        # p["width"] = 4
+        # p["height"] = 1
+        # p["magnet_shape"] = "cylinder"
+        # p["magnet_diameter"] = 12
+        # p["magnet_depth"] = 3
+        # p["magnet_multiple"] = 2
+        # p["magnet_offset"] = 15
+        # ps.append(p)
+
+        # p = {}        
+        # p["magnet"] = "hardware_magnet_cylinder_10_mm_diameter_3_mm_depth"
+        # p["width"] = 3
+        # p["height"] = 1
+        # p["magnet_shape"] = "cylinder"
+        # p["magnet_diameter"] = 10
+        # p["magnet_depth"] = 3
+        # p["magnet_multiple"] = 2
+        # p["magnet_offset"] = 12
+        # ps.append(p)
+
+        #rectangule
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth"
         p["width"] = 4
         p["height"] = 1
-        p["magnet_shape"] = "cylinder"
-        p["magnet_diameter"] = 12
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 29
+        p["magnet_width"] = 9.5
         p["magnet_depth"] = 3
-        p["magnet_multiple"] = 2
-        p["magnet_offset"] = 15
-        ps.append(p)
-
-        p = {}        
-        p["magnet"] = "hardware_magnet_cylinder_10_mm_diameter_3_mm_depth"
-        p["width"] = 3
-        p["height"] = 1
-        p["magnet_shape"] = "cylinder"
-        p["magnet_diameter"] = 10
-        p["magnet_depth"] = 3
-        p["magnet_multiple"] = 2
-        p["magnet_offset"] = 12
+        p["magnet_multiple_x"] = 1
+        p["magnet_offset_x"] = 0
+        p["magnet_multiple_y"] = 1
+        p["magnet_offset_y"] = 0
         ps.append(p)
 
 
@@ -159,8 +174,12 @@ def make_scad(**kwargs):
             part = copy.deepcopy(part_default)
             p3 = copy.deepcopy(kwargs)
             p3.update(p)
-            p3["thickness"] = p3["magnet_depth"] + .5
-            p3["extra"] = f"{p3["magnet"]}_magnet_{p3["magnet_multiple"]}_multiple"
+            p3["thickness"] = p3["magnet_depth"] + .5            
+            if p3.get("magnet_multiple", None) is not None:                
+                ex = f"{p3["magnet"]}_magnet_{p3["magnet_multiple"]}_multiple"
+            if p3.get("magnet_multiple_x", None) is not None:
+                ex = f"{p3["magnet"]}_magnet_{p3["magnet_multiple_x"]}_multiple_x_{p3["magnet_multiple_y"]}_multiple_y"
+            p3["extra"] = ex
             part["kwargs"] = p3
             nam = f"magnet_holder"
             part["name"] = nam
@@ -252,6 +271,9 @@ def get_magnet_holder(thing, **kwargs):
     magnet_shape = kwargs.get("magnet_shape", "cylinder")
     if magnet_shape == "cylinder":
         return get_magnet_holder_cylinder(thing, **kwargs)
+    elif magnet_shape == "rectangle":
+        return get_magnet_holder_rectangle(thing, **kwargs)
+
 
 
 def get_magnet_holder_cylinder(thing, **kwargs):
@@ -361,6 +383,122 @@ def get_magnet_holder_cylinder(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
+def get_magnet_holder_rectangle(thing, **kwargs):
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    
+    #magnet
+    magnet_length = kwargs.get("magnet_length", 29)
+    magnet_width = kwargs.get("magnet_width", 9.5)
+    magnet_depth = kwargs.get("magnet_depth", 6)
+    magnet_multiple_x = kwargs.get("magnet_multiple", 1)
+    magnet_offset_x = kwargs.get("magnet_offset", 7.5)
+    magnet_multiple_y = kwargs.get("magnet_multiple", 1)
+    magnet_offset_y = kwargs.get("magnet_offset", 7.5)
+
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+    
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["radius_name"] = "m3"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = ["top","bottom"]
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
+    #add magnet holes
+    if True:
+        extra = 0.25
+        magnet_diameter = kwargs.get("magnet_diameter", 6)
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_cube"
+        wid = magnet_length + extra
+        dep = magnet_depth + extra
+        hei = magnet_width + extra
+        size = [wid,hei,dep]
+        p3["size"] = size        
+        for xx in range(magnet_multiple_x):
+            for yy in range(magnet_multiple_y):
+                p4 = copy.deepcopy(p3)
+                pos1 = copy.deepcopy(pos)         
+                pos1[0] += (xx - (magnet_multiple_x-1)/2) * magnet_offset_x
+                pos1[2] += (yy - (magnet_multiple_y-1)/2) * magnet_offset_y
+                p4["pos"] = pos1
+                p4["m"] = "#"
+                oobb_base.append_full(thing,**p4)
+
+    #add counter sunk screws on side
+    if True:    
+        counter_sunk_extra = 0.5
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_screw_countersunk"
+        p3["depth"] = depth - counter_sunk_extra
+        p3["radius_name"] = "m3"
+        p3["clearance"] = "top"
+        pos1 = copy.deepcopy(pos)
+        pos1[2] += depth - counter_sunk_extra
+        poss = []
+        pos11 = copy.deepcopy(pos1)
+        pos11[0] += (width-1)/2 * 15
+        poss.append(pos11)
+        pos12 = copy.deepcopy(pos1)
+        pos12[0] += -(width-1)/2 * 15
+        poss.append(pos12)
+        p3["pos"] = poss
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += -500/2
+        pos1[1] += 0
+        pos1[2] += -500/2        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
 
 if __name__ == '__main__':
     kwargs = {}
