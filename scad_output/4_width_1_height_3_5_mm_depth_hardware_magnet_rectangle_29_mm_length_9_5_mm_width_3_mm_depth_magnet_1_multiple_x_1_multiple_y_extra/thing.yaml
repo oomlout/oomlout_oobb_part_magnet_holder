@@ -287,7 +287,7 @@ thing:
         pos:
         - -14.625
         - -4.875
-        - 0.0
+        - 0
         shape: cube
         size:
         - 29.25
@@ -826,8 +826,8 @@ thing:
     overwrite: true
     pos:
     - 0.0
-    - 0
     - 0.0
+    - 0
     save_type: none
     shape: oobb_cube
     size:

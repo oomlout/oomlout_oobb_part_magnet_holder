@@ -184,6 +184,33 @@ def make_scad(**kwargs):
         p["magnet_offset_y"] = 6
         ps.append(p)
 
+        #20x3x2 y_multiple 2 y offset6
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_20_mm_length_3_mm_width_3_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 20
+        p["magnet_width"] = 3
+        p["magnet_depth"] = 3
+        p["magnet_multiple_x"] = 1
+        p["magnet_offset_x"] = 0
+        p["magnet_multiple_y"] = 2
+        p["magnet_offset_y"] = 6
+        ps.append(p)
+
+        #20x6x3 y_multiple 1 y offset 0
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_20_mm_length_6_mm_width_3_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 20
+        p["magnet_width"] = 6
+        p["magnet_depth"] = 3
+        p["magnet_multiple"] = 1
+        p["magnet_offset"] = 0
+        ps.append(p)
 
 
         for p in ps:
@@ -191,8 +218,9 @@ def make_scad(**kwargs):
             p3 = copy.deepcopy(kwargs)
             p3.update(p)
             p3["thickness"] = p3["magnet_depth"] + .5            
+
             if p3.get("magnet_multiple", None) is not None:                
-                ex = f"{p3["magnet"]}_magnet_{p3["magnet_multiple"]}_multiple"
+                ex = f"{p3["magnet"]}_magnet"
             if p3.get("magnet_multiple_x", None) is not None:
                 ex = f"{p3["magnet"]}_magnet_{p3["magnet_multiple_x"]}_multiple_x_{p3["magnet_multiple_y"]}_multiple_y"
             p3["extra"] = ex
