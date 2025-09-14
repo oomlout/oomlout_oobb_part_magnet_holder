@@ -120,39 +120,39 @@ def make_scad(**kwargs):
         
         ps = []
         
-        # p = {}        
-        # p["magnet"] = "hardware_magnet_cylinder_6_mm_diameter_6_mm_depth"
-        # p["width"] = 3
-        # p["height"] = 1
-        # p["magnet_shape"] = "cylinder"
-        # p["magnet_diameter"] = 6
-        # p["magnet_depth"] = 6
-        # p["magnet_multiple"] = 3
-        # p["magnet_offset"] = 7.5
-        # ps.append(p)
+        p = {}        
+        p["magnet"] = "hardware_magnet_cylinder_6_mm_diameter_6_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "cylinder"
+        p["magnet_diameter"] = 6
+        p["magnet_depth"] = 6
+        p["magnet_multiple"] = 3
+        p["magnet_offset"] = 7.5
+        ps.append(p)
 
         
-        # p = {}        
-        # p["magnet"] = "hardware_magnet_cylinder_12_mm_diameter_3_mm_depth"
-        # p["width"] = 4
-        # p["height"] = 1
-        # p["magnet_shape"] = "cylinder"
-        # p["magnet_diameter"] = 12
-        # p["magnet_depth"] = 3
-        # p["magnet_multiple"] = 2
-        # p["magnet_offset"] = 15
-        # ps.append(p)
+        p = {}        
+        p["magnet"] = "hardware_magnet_cylinder_12_mm_diameter_3_mm_depth"
+        p["width"] = 4
+        p["height"] = 1
+        p["magnet_shape"] = "cylinder"
+        p["magnet_diameter"] = 12
+        p["magnet_depth"] = 3
+        p["magnet_multiple"] = 2
+        p["magnet_offset"] = 15
+        ps.append(p)
 
-        # p = {}        
-        # p["magnet"] = "hardware_magnet_cylinder_10_mm_diameter_3_mm_depth"
-        # p["width"] = 3
-        # p["height"] = 1
-        # p["magnet_shape"] = "cylinder"
-        # p["magnet_diameter"] = 10
-        # p["magnet_depth"] = 3
-        # p["magnet_multiple"] = 2
-        # p["magnet_offset"] = 12
-        # ps.append(p)
+        p = {}        
+        p["magnet"] = "hardware_magnet_cylinder_10_mm_diameter_3_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "cylinder"
+        p["magnet_diameter"] = 10
+        p["magnet_depth"] = 3
+        p["magnet_multiple"] = 2
+        p["magnet_offset"] = 12
+        ps.append(p)
 
         #rectangule
         p = {}
@@ -168,6 +168,22 @@ def make_scad(**kwargs):
         p["magnet_multiple_y"] = 1
         p["magnet_offset_y"] = 0
         ps.append(p)
+
+        #20x3x2 y_multiple 2 y offset6
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_20_mm_length_3_mm_width_2_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 20
+        p["magnet_width"] = 3
+        p["magnet_depth"] = 2
+        p["magnet_multiple_x"] = 1
+        p["magnet_offset_x"] = 0
+        p["magnet_multiple_y"] = 2
+        p["magnet_offset_y"] = 6
+        ps.append(p)
+
 
 
         for p in ps:
@@ -398,10 +414,10 @@ def get_magnet_holder_rectangle(thing, **kwargs):
     magnet_length = kwargs.get("magnet_length", 29)
     magnet_width = kwargs.get("magnet_width", 9.5)
     magnet_depth = kwargs.get("magnet_depth", 6)
-    magnet_multiple_x = kwargs.get("magnet_multiple", 1)
-    magnet_offset_x = kwargs.get("magnet_offset", 7.5)
-    magnet_multiple_y = kwargs.get("magnet_multiple", 1)
-    magnet_offset_y = kwargs.get("magnet_offset", 7.5)
+    magnet_multiple_x = kwargs.get("magnet_multiple_x", 1)
+    magnet_offset_x = kwargs.get("magnet_offset_x", 7.5)
+    magnet_multiple_y = kwargs.get("magnet_multiple_y", 1)
+    magnet_offset_y = kwargs.get("magnet_offset_y", 7.5)
 
     #add plate
     p3 = copy.deepcopy(kwargs)
@@ -444,7 +460,7 @@ def get_magnet_holder_rectangle(thing, **kwargs):
                 p4 = copy.deepcopy(p3)
                 pos1 = copy.deepcopy(pos)         
                 pos1[0] += (xx - (magnet_multiple_x-1)/2) * magnet_offset_x
-                pos1[2] += (yy - (magnet_multiple_y-1)/2) * magnet_offset_y
+                pos1[1] += (yy - (magnet_multiple_y-1)/2) * magnet_offset_y
                 p4["pos"] = pos1
                 p4["m"] = "#"
                 oobb_base.append_full(thing,**p4)

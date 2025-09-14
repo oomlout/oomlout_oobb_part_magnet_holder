@@ -7,5 +7,7 @@
 * [oobb](oobb)
   * [part](oobb/part)
     * [magnet_holder](oobb/part/magnet_holder)
+      * [3_width_1_height_2_5_mm_depth](oobb/part/magnet_holder/3_width_1_height_2_5_mm_depth)
+        * [hardware_magnet_rectangle_20_mm_length_3_mm_width_2_mm_depth_magnet_1_multiple_x_2_multiple_y_extra](oobb/part/magnet_holder/3_width_1_height_2_5_mm_depth/hardware_magnet_rectangle_20_mm_length_3_mm_width_2_mm_depth_magnet_1_multiple_x_2_multiple_y_extra)
       * [4_width_1_height_3_5_mm_depth](oobb/part/magnet_holder/4_width_1_height_3_5_mm_depth)
         * [hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra](oobb/part/magnet_holder/4_width_1_height_3_5_mm_depth/hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra)
