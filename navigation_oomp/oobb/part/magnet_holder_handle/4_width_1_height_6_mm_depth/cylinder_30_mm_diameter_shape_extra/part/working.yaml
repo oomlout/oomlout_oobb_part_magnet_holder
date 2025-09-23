@@ -16,6 +16,7 @@ kwargs:
   extra: cylinder_30_mm_diameter_shape
   filter: ''
   height: 1
+  message: ''
   modes:
   - 3dpr
   navigation: true
@@ -30,7 +31,10 @@ kwargs:
   oomp_size: magnet_holder_handle
   oomp_type: part
   overwrite: true
+  shape: oobb_cylinder
+  shape_depth: 6
   shape_full: cylinder_30_mm_diameter
+  shape_radius: 15.0
   thickness: 6
   typ: all
   type: oomlout_oobb_part_magnet_holder_magnet_holder_handle

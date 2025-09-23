@@ -119,7 +119,7 @@ def make_scad(**kwargs):
         part_default["full_rotations"] = [0, 0, 0]
         
         ps = []
-        
+
         p = {}        
         p["magnet"] = "hardware_magnet_cylinder_6_mm_diameter_6_mm_depth"
         p["width"] = 3
@@ -234,19 +234,27 @@ def make_scad(**kwargs):
                 parts.append(part)
 
         ps = []
-        p = {}
-        p["shape_full"] = "cylinder_30_mm_diameter"
-        p3["shape"] ="oobb_cylinder"
-        p3["shape_radius"] = 30/2        
-        p3["shape_depth"] = 6
-        p["width"] = 3
-        p["height"] = 1
-        p["thickness"] = 6
-        ps.append(p)
 
-        p = copy.deepcopy(p)
-        p["width"] = 4
-        ps.append(p)
+        
+        
+        messages = ["","A","H","HELEN", "AARON", "CLAIRE"]
+
+        for m in messages:
+
+            p = {}
+            p["shape_full"] = "cylinder_30_mm_diameter"
+            p["shape"] ="oobb_cylinder"
+            p["shape_radius"] = 30/2        
+            p["shape_depth"] = 6
+            p["message"] = m
+            p["width"] = 3
+            p["height"] = 1
+            p["thickness"] = 6
+            ps.append(p)
+
+            p = copy.deepcopy(p)
+            p["width"] = 4
+            ps.append(p)
 
         
 
@@ -256,6 +264,9 @@ def make_scad(**kwargs):
             p3.update(p)
             shape_full = p3["shape_full"]           
             p3["extra"] = f"{shape_full}_shape"
+            message = p3.get("message", "")
+            if message != "":
+                p3["extra"] += f"_{message}_message"            
             part["kwargs"] = p3
             nam = f"magnet_holder_handle"
             part["name"] = nam
@@ -273,12 +284,13 @@ def make_scad(**kwargs):
     #generate navigation
     if navigation:
         sort = []
-        sort.append("magnet")
         sort.append("name")
+        sort.append("magnet")        
         sort.append("width")
         sort.append("height")
         sort.append("thickness")
-        sort.append("extra")
+        sort.append("message")
+        #sort.append("extra")
         
         scad_help.generate_navigation(sort = sort)
 
@@ -478,6 +490,8 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
     
+    message = kwargs.get("message", "")
+
     #shape
     shape = kwargs.get("shape", "oobb_cylinder")
     shape_radius = kwargs.get("shape_radius", 15)
@@ -507,7 +521,7 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
 
-    #add pieces
+    #add piece
     if True:
         if shape == "oobb_cylinder":
             p3 = copy.deepcopy(kwargs)
@@ -522,6 +536,39 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
             p3["pos"] = pos1
             #p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
+
+    #add message
+    if True:
+        if message != "":            
+            message_length = len(message)
+            text_size_one = 18
+            text_size_scale = 1.25
+
+
+            text_size = text_size_one * 1/message_length * text_size_scale
+            
+
+            style = "negative"
+            dep = 2
+            siz = text_size
+            scale_factor = .9
+            shift_y = 0#text_size/5.5 * 4 * scale_factor
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = style
+            p3["shape"] = f"oobb_text"
+            p3["text"] = message
+            p3["depth"] = dep
+            p3["size"] = siz
+            p3["font"] = "Arial:Bold"
+            p3["center"] = True
+            p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += -0
+            pos1[1] += shift_y
+            pos1[2] += depth - dep
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+            
 
     #add counter sunk screws on side
     if True:    
