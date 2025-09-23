@@ -11,3 +11,8 @@
     * [4_width_1_height_3_5_mm_depth](part/magnet_holder/4_width_1_height_3_5_mm_depth)
       * [hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra](part/magnet_holder/4_width_1_height_3_5_mm_depth/hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra)
       * [hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra](part/magnet_holder/4_width_1_height_3_5_mm_depth/hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra)
+  * [magnet_holder_handle](part/magnet_holder_handle)
+    * [3_width_1_height_6_mm_depth](part/magnet_holder_handle/3_width_1_height_6_mm_depth)
+      * [cylinder_30_mm_diameter_shape_extra](part/magnet_holder_handle/3_width_1_height_6_mm_depth/cylinder_30_mm_diameter_shape_extra)
+    * [4_width_1_height_6_mm_depth](part/magnet_holder_handle/4_width_1_height_6_mm_depth)
+      * [cylinder_30_mm_diameter_shape_extra](part/magnet_holder_handle/4_width_1_height_6_mm_depth/cylinder_30_mm_diameter_shape_extra)
