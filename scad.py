@@ -276,6 +276,39 @@ def make_scad(**kwargs):
                 pass
                 parts.append(part)
 
+        #stl inclusion ones
+        ps = []
+        p = {}
+        p["magnet_shape"] = "import"
+        p["shape_full"] = "import"
+        p["shape_file"] ="working.stl"
+        p["width"] = 3
+        p["height"] = 1
+        p["thickness"] = 3
+        p["filename"] = "cylinder_test"
+        ps.append(p)
+
+        p = copy.deepcopy(p)
+        #filename unicorn_test
+        p["filename"] = "unicorn_test"
+        ps.append(p)
+        
+
+        for p in ps:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3.update(p)
+            filename = p3["filename"]           
+            p3["extra"] = f"{filename}_filename"
+            part["kwargs"] = p3
+            nam = f"magnet_holder_handle"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                pass
+                parts.append(part)
+
 
     kwargs["parts"] = parts
 
@@ -477,6 +510,8 @@ def get_magnet_holder_handle(thing, **kwargs):
     magnet_shape = kwargs.get("magnet_shape", "cylinder")
     if magnet_shape == "cylinder":
         return get_magnet_holder_handle_cylinder(thing, **kwargs)
+    elif magnet_shape == "import":
+        return get_magnet_holder_handle_import(thing, **kwargs)
     
 
 
@@ -626,6 +661,117 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
 
+def get_magnet_holder_handle_import(thing, **kwargs):
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    message = kwargs.get("message", "")
+
+    #import
+    shape_file_source = kwargs.get("shape_file", "source_files/cylinder_test/working.stl")
+    #just_filename of source    
+    shape_file = os.path.basename(shape_file_source)    
+
+
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+    
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["radius_name"] = "m3"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = ["top","bottom"]
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+
+    #add piece
+    if True:        
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"import_stl"
+        p3["file"] = shape_file_source
+        pos1 = copy.deepcopy(pos)         
+        pos1[0] += 0
+        pos1[2] += 0
+        p3["pos"] = pos1
+        p3["m"] = "#"
+        #oobb_base.append_full(thing,**p3)
+
+            
+
+    #add counter sunk screws on side
+    if True:    
+        counter_sunk_extra = 0.5
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_screw_countersunk"
+        dep = 20
+        p3["depth"] = dep + depth
+        p3["radius_name"] = "m3"
+        p3["nut"] = True
+
+        if True:        
+            pos1 = copy.deepcopy(pos)
+            pos1[2] += -dep
+            poss = []
+            pos11 = copy.deepcopy(pos1)
+            pos11[0] += (width-1)/2 * 15
+            poss.append(pos11)
+            pos12 = copy.deepcopy(pos1)
+            pos12[0] += -(width-1)/2 * 15
+            poss.append(pos12)
+            p3["pos"] = poss
+        p3["m"] = "#"
+        rot1 = copy.deepcopy(rot)
+        rot1[1] += 180
+        p3["rot"] = rot1
+        oobb_base.append_full(thing,**p3)
+
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += -500/2
+        pos1[1] += 0
+        pos1[2] += -500/2        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
 
 def get_magnet_holder_rectangle(thing, **kwargs):
     prepare_print = kwargs.get("prepare_print", False)

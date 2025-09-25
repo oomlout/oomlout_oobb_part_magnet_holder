@@ -1,3 +1,6 @@
+* [3_width_1_height_3_mm_depth](3_width_1_height_3_mm_depth)
+  * [cylinder_test_filename_extra](3_width_1_height_3_mm_depth/cylinder_test_filename_extra)
+  * [unicorn_test_filename_extra](3_width_1_height_3_mm_depth/unicorn_test_filename_extra)
 * [3_width_1_height_6_mm_depth](3_width_1_height_6_mm_depth)
   * [cylinder_30_mm_diameter_shape_AARON_message_extra](3_width_1_height_6_mm_depth/cylinder_30_mm_diameter_shape_AARON_message_extra)
   * [cylinder_30_mm_diameter_shape_A_message_extra](3_width_1_height_6_mm_depth/cylinder_30_mm_diameter_shape_A_message_extra)
