@@ -15,7 +15,7 @@ id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_
 kwargs:
   extra: unicorn_test_filename
   filename: unicorn_test
-  filter: filename
+  filter: ''
   height: 1
   magnet_shape: import
   modes:

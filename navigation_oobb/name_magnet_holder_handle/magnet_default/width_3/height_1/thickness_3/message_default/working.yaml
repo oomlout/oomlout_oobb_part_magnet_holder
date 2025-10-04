@@ -31,7 +31,7 @@ kwargs:
   oomp_run: true
   oomp_size: magnet_holder_handle
   oomp_type: part
-  overwrite: true
+  overwrite: false
   shape_file: working.stl
   shape_full: import
   thickness: 3

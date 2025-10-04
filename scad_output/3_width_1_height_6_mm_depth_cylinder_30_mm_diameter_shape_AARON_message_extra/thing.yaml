@@ -277,35 +277,40 @@ thing:
         r: 1.5
         shape: cylinder
         type: negative
-  - - extra: cylinder_30_mm_diameter_shape_AARON_message
-      h: 250
+  - - depth: 6
+      extra: cylinder_30_mm_diameter_shape_AARON_message
+      h: 6
       height: 1
       inclusion: laser
-      m: '#'
       pos: &id009
       - 0
       - 0
-      - -125.0
+      - 0.0
+      r: 15.0
+      radius: 15.0
       shape: cylinder
-      type: import
+      type: positive
       width: 3
-    - extra: cylinder_30_mm_diameter_shape_AARON_message
-      h: 250
+    - depth: 6
+      extra: cylinder_30_mm_diameter_shape_AARON_message
+      h: 6
       height: 1
       inclusion: 3dpr
-      m: '#'
       pos: *id009
+      r: 15.0
       shape: cylinder
-      type: import
+      type: positive
       width: 3
-    - extra: cylinder_30_mm_diameter_shape_AARON_message
-      h: 250
+    - depth: 6
+      extra: cylinder_30_mm_diameter_shape_AARON_message
+      h: 6
       height: 1
       inclusion: 'true'
-      m: '#'
       pos: *id009
+      r: 15.0
+      radius: 15.0
       shape: cylinder
-      type: import
+      type: positive
       width: 3
   - - center: true
       depth: 2
@@ -2238,11 +2243,10 @@ thing:
     thickness: 6
     type: p
     width: 3
-  - extra: cylinder_30_mm_diameter_shape_AARON_message
-    file: source_files/cylinder_test/working.stl
+  - depth: 6
+    extra: cylinder_30_mm_diameter_shape_AARON_message
     filter: ''
     height: 1
-    m: '#'
     message: AARON
     modes:
     - 3dpr
@@ -2261,14 +2265,15 @@ thing:
     pos:
     - 0
     - 0
-    - 0
+    - 3.0
+    radius: 15.0
     save_type: none
     shape: oobb_cylinder
     shape_depth: 6
     shape_full: cylinder_30_mm_diameter
     shape_radius: 15.0
     thickness: 6
-    type: import
+    type: positive
     width: 3
   - center: true
     depth: 2
@@ -2385,7 +2390,7 @@ thing:
   components_string:
   - oobb_plate_shape_positive_type_6_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra
   - oobb_holes_shape_p_type_m3_radius_name_6_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_true_both_holes_'top'_'bottom'_holes
-  - oobb_cylinder_shape_import_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_source_files/cylinder_test/working.stl_file
+  - oobb_cylinder_shape_positive_type_6_depth_0_0_3.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_15.0_radius
   - oobb_text_shape_negative_type_2_depth_0_0_4_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_aaron_text_4.5_size_arial:bold_font_true_center
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_26_depth_15.0_0_-20_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_true_nut_0_180_0_rot
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_26_depth_-15.0_0_-20_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_3_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_aaron_message_cylinder_30_mm_diameter_shape_aaron_message_extra_true_nut_0_180_0_rot

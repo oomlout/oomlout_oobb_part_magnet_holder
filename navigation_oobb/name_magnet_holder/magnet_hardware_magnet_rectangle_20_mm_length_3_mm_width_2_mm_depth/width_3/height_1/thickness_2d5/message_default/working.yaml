@@ -38,7 +38,7 @@ kwargs:
   oomp_run: true
   oomp_size: magnet_holder
   oomp_type: part
-  overwrite: true
+  overwrite: false
   thickness: 2.5
   typ: all
   type: oomlout_oobb_part_magnet_holder_magnet_holder

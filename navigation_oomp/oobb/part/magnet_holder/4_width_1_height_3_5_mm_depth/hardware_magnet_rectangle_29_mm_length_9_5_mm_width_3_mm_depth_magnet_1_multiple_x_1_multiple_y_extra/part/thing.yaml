@@ -38,7 +38,7 @@ kwargs:
   oomp_run: true
   oomp_size: magnet_holder
   oomp_type: part
-  overwrite: true
+  overwrite: false
   thickness: 3.5
   typ: all
   type: oomlout_oobb_part_magnet_holder_magnet_holder
@@ -294,7 +294,7 @@ thing:
         - 29.25
         - 9.75
         - 3.25
-        type: negative
+        type: n
         width: 4
   - - objects:
       - - clearance: top
@@ -349,6 +349,7 @@ thing:
           inclusion: 3dpr
           pos: *id009
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -416,6 +417,7 @@ thing:
           inclusion: 3dpr
           pos: *id010
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -483,6 +485,7 @@ thing:
           inclusion: 3dpr
           pos: *id011
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -561,6 +564,7 @@ thing:
           inclusion: 3dpr
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -628,6 +632,7 @@ thing:
           inclusion: 3dpr
           pos: *id013
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -695,6 +700,7 @@ thing:
           inclusion: 3dpr
           pos: *id014
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -747,7 +753,7 @@ thing:
     oomp_run: true
     oomp_size: magnet_holder
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
@@ -788,7 +794,7 @@ thing:
     oomp_run: true
     oomp_size: magnet_holder
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0
     - 0
@@ -826,7 +832,7 @@ thing:
     oomp_run: true
     oomp_size: magnet_holder
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 0.0
     - 0.0
@@ -868,7 +874,7 @@ thing:
     oomp_run: true
     oomp_size: magnet_holder
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - 22.5
     - 0
@@ -907,7 +913,7 @@ thing:
     oomp_run: true
     oomp_size: magnet_holder
     oomp_type: part
-    overwrite: true
+    overwrite: false
     pos:
     - -22.5
     - 0
@@ -920,11 +926,11 @@ thing:
     type: n
     width: 4
   components_string:
-  - oobb_plate_shape_positive_type_3.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra
-  - oobb_holes_shape_p_type_m3_radius_name_3.5_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_true_both_holes_'top'_'bottom'_holes
-  - oobb_cube_shape_n_type_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_29.25_9.75_3.25_size
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3.0_depth_22.5_0_3.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_top_clearance
-  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3.0_depth_-22.5_0_3.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_top_clearance
+  - oobb_plate_shape_positive_type_3.5_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra
+  - oobb_holes_shape_p_type_m3_radius_name_3.5_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_true_both_holes_'top'_'bottom'_holes
+  - oobb_cube_shape_n_type_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_29.25_9.75_3.25_size
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3.0_depth_22.5_0_3.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_top_clearance
+  - oobb_screw_countersunk_shape_n_type_m3_radius_name_3.0_depth_-22.5_0_3.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_3.5_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_oomp_size_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_rectangle_magnet_shape_29_magnet_length_9.5_magnet_width_3_magnet_depth_1_magnet_multiple_x_0_magnet_offset_x_1_magnet_multiple_y_0_magnet_offset_y_hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra_top_clearance
   description: oomlout oobb part magnet holder magnet holder 4x1x3.5
   description_extra: hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra
   description_main: 4_width_1_height_3_5_mm_depth

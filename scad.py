@@ -26,8 +26,9 @@ def make_scad(**kwargs):
     test = False
     #test = True
 
-    if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
+    if typ == "all":        
+        #no overwrite
+        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True; test = False
         #default
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
     elif typ == "fast":
@@ -211,6 +212,35 @@ def make_scad(**kwargs):
         p["magnet_multiple"] = 1
         p["magnet_offset"] = 0
         ps.append(p)
+
+        #20x10x2 y_multiple 1 y offset 0
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_20_mm_length_10_mm_width_2_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 20
+        p["magnet_width"] = 10
+        p["magnet_depth"] = 2
+        p["magnet_multiple"] = 1
+        p["magnet_offset"] = 0
+        ps.append(p)
+
+        #20x4.5x3 y_multiple 1 y offset 0
+        p = {}
+        p["magnet"] = "hardware_magnet_rectangle_20_mm_length_4_5_mm_width_3_mm_depth"
+        p["width"] = 3
+        p["height"] = 1
+        p["magnet_shape"] = "rectangle"
+        p["magnet_length"] = 20
+        p["magnet_width"] = 4.5
+        p["magnet_depth"] = 3
+        p["magnet_multiple"] = 1
+        p["magnet_offset"] = 0
+        ps.append(p)
+
+
+
 
 
         for p in ps:
