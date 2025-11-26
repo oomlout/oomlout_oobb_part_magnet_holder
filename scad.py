@@ -318,11 +318,25 @@ def make_scad(**kwargs):
         p["filename"] = "cylinder_test"
         ps.append(p)
 
+
         p = copy.deepcopy(p)
         #filename unicorn_test
         p["filename"] = "unicorn_test"
         ps.append(p)
         
+
+        pass
+        #4 x 1 and 5x1 blanks
+        p = copy.deepcopy(p)
+        p["width"] = 4
+        p["filename"] = "unicorn_test"
+        ps.append(p)
+
+        #5 x 1
+        p = copy.deepcopy(p)
+        p["width"] = 5
+        p["filename"] = "unicorn_test"
+        ps.append(p)
 
         for p in ps:
             part = copy.deepcopy(part_default)

@@ -292,7 +292,7 @@ thing:
         - 20.25
         - 10.25
         - 2.25
-        type: negative
+        type: n
         width: 3
   - - objects:
       - - clearance: top
@@ -347,6 +347,7 @@ thing:
           inclusion: 3dpr
           pos: *id009
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -414,6 +415,7 @@ thing:
           inclusion: 3dpr
           pos: *id010
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -481,6 +483,7 @@ thing:
           inclusion: 3dpr
           pos: *id011
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -559,6 +562,7 @@ thing:
           inclusion: 3dpr
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -626,6 +630,7 @@ thing:
           inclusion: 3dpr
           pos: *id013
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -693,6 +698,7 @@ thing:
           inclusion: 3dpr
           pos: *id014
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
