@@ -267,7 +267,7 @@ def make_scad(**kwargs):
 
         
         
-        messages = ["","A","H","HELEN", "AARON", "CLAIRE"]
+        messages = ["","A","H","HELEN", "AARON", "CLAIRE", "MATH", "SPELLING", "HOMEWORK"]
 
         for m in messages:
 
