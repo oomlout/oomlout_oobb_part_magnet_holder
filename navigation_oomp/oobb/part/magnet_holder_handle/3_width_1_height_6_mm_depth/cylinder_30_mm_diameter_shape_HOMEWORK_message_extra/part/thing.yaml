@@ -299,6 +299,7 @@ thing:
       inclusion: 3dpr
       pos: *id009
       r: 15.0
+      radius: 15.0
       shape: cylinder
       type: positive
       width: 3
@@ -369,6 +370,7 @@ thing:
           m: '#'
           pos: *id010
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -673,6 +675,7 @@ thing:
           m: '#'
           pos: *id011
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -977,6 +980,7 @@ thing:
           m: '#'
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1292,6 +1296,7 @@ thing:
           m: '#'
           pos: *id013
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3
@@ -1596,6 +1601,7 @@ thing:
           m: '#'
           pos: *id014
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 3
@@ -1900,6 +1906,7 @@ thing:
           m: '#'
           pos: *id015
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 3

@@ -7,3 +7,6 @@
 * [cylinder_30_mm_diameter_shape_H_message_extra](cylinder_30_mm_diameter_shape_H_message_extra)
 * [cylinder_30_mm_diameter_shape_MATH_message_extra](cylinder_30_mm_diameter_shape_MATH_message_extra)
 * [cylinder_30_mm_diameter_shape_SPELLING_message_extra](cylinder_30_mm_diameter_shape_SPELLING_message_extra)
+* [oobb_shape_LETTERS_message_extra](oobb_shape_LETTERS_message_extra)
+* [oobb_shape_NEWSLETTER_message_extra](oobb_shape_NEWSLETTER_message_extra)
+* [oobb_shape_TERM LETTER_message_extra](oobb_shape_TERM LETTER_message_extra)

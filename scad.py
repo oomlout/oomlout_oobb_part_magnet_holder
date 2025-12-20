@@ -306,6 +306,47 @@ def make_scad(**kwargs):
                 pass
                 parts.append(part)
 
+        #bar magnets
+        messages = ["LETTERS","TERM LETTER","NEWSLETTER"]
+        widths = [4,3]
+        for wid in widths:
+            for m in messages:
+
+                p = {}
+                p["shape_full"] = "oobb"
+                p["shape"] ="oobb_rounded_rectangle"
+                #p["shape_radius"] = 30/2        
+                p["shape_depth"] = 6
+                p["message"] = m
+                p["width"] = wid
+                p["height"] = 1
+                p["thickness"] = 6
+                ps.append(p)
+
+                p = copy.deepcopy(p)
+                p["width"] = 4
+                ps.append(p)
+
+        
+
+        for p in ps:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3.update(p)
+            shape_full = p3["shape_full"]           
+            p3["extra"] = f"{shape_full}_shape"
+            message = p3.get("message", "")
+            if message != "":
+                p3["extra"] += f"_{message}_message"            
+            part["kwargs"] = p3
+            nam = f"magnet_holder_handle"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                pass
+                parts.append(part)
+
         #stl inclusion ones
         ps = []
         p = {}
@@ -615,6 +656,20 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
             p3["pos"] = pos1
             #p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
+        elif shape == "oobb_rounded_rectangle":
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"oobb_rounded_rectangle"
+            wid = (width *15) - 1
+            hei = 1            
+            dep = shape_depth
+            size = [wid, hei, dep]
+            p3["size"] = size            
+            pos1 = copy.deepcopy(pos)         
+            pos1[0] += 0
+            pos1[2] += dep /2
+            p3["pos"] = pos1
+            #p3["m"] = "#"
 
     #add message
     if True:
@@ -622,6 +677,8 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
             message_length = len(message)
             text_size_one = 18
             text_size_scale = 1.25
+            if width == 4:
+                text_size_scale = 2.1
 
 
             text_size = text_size_one * 1/message_length * text_size_scale

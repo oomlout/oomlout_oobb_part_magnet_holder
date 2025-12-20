@@ -299,6 +299,7 @@ thing:
       inclusion: 3dpr
       pos: *id009
       r: 15.0
+      radius: 15.0
       shape: cylinder
       type: positive
       width: 4
@@ -325,7 +326,7 @@ thing:
       - 0
       - 4
       shape: text
-      size: 2.8125
+      size: 4.7250000000000005
       text: HOMEWORK
       type: negative
       valign: center
@@ -369,6 +370,7 @@ thing:
           m: '#'
           pos: *id010
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -673,6 +675,7 @@ thing:
           m: '#'
           pos: *id011
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -977,6 +980,7 @@ thing:
           m: '#'
           pos: *id012
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -1292,6 +1296,7 @@ thing:
           m: '#'
           pos: *id013
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -1596,6 +1601,7 @@ thing:
           m: '#'
           pos: *id014
           r: 1.8
+          radius: 1.8
           shape: cylinder
           type: positive
           width: 4
@@ -1900,6 +1906,7 @@ thing:
           m: '#'
           pos: *id015
           r: 1.5
+          radius: 1.5
           shape: cylinder
           type: positive
           width: 4
@@ -2310,7 +2317,7 @@ thing:
     shape_depth: 6
     shape_full: cylinder_30_mm_diameter
     shape_radius: 15.0
-    size: 2.8125
+    size: 4.7250000000000005
     text: HOMEWORK
     thickness: 6
     typ: all
@@ -2398,7 +2405,7 @@ thing:
   - oobb_plate_shape_positive_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra
   - oobb_holes_shape_p_type_m3_radius_name_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_true_both_holes_'top'_'bottom'_holes
   - oobb_cylinder_shape_positive_type_6_depth_0_0_3.0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_15.0_radius
-  - oobb_text_shape_negative_type_2_depth_0_0_4_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_homework_text_2.8125_size_arial:bold_font_true_center
+  - oobb_text_shape_negative_type_2_depth_0_0_4_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_homework_text_4.7250000000000005_size_arial:bold_font_true_center
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_26_depth_22.5_0_-20_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_true_nut_0_180_0_rot
   - oobb_screw_countersunk_shape_n_type_m3_radius_name_26_depth_-22.5_0_-20_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_4_width_1_height_6_thickness_oobb_oomp_classification_part_oomp_type_magnet_holder_handle_oomp_size_cylinder_30_mm_diameter_shape_full_15.0_shape_radius_6_shape_depth_homework_message_cylinder_30_mm_diameter_shape_homework_message_extra_true_nut_0_180_0_rot
   description: oomlout oobb part magnet holder magnet holder handle 4x1x6

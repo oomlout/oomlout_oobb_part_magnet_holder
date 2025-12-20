@@ -376,7 +376,7 @@ difference() {
 		}
 		#translate(v = [0, 0, 4]) {
 			linear_extrude(height = 2) {
-				text(font = "Arial:Bold", halign = "center", size = 4.5000000000, text = "HELEN", valign = "center");
+				text(font = "Arial:Bold", halign = "center", size = 7.5600000000, text = "HELEN", valign = "center");
 			}
 		}
 	}
