@@ -108,11 +108,6 @@
 ![](3_width_1_height_6_mm_depth_oobb_shape_NEWSLETTER_message_extra/3dpr_300.png)  ![](3_width_1_height_6_mm_depth_oobb_shape_NEWSLETTER_message_extra/image_300.jpg)
  
 
-### 3_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra
-* link: [/3_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra](3_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra)  
-![](3_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra/3dpr_300.png)  ![](3_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra/image_300.jpg)
- 
-
 ### 4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra
 * link: [/4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra](4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra)  
 ![](4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra/3dpr_300.png)  ![](4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra/image_300.jpg)
@@ -183,9 +178,9 @@
 ![](4_width_1_height_6_mm_depth_oobb_shape_NEWSLETTER_message_extra/3dpr_300.png)  ![](4_width_1_height_6_mm_depth_oobb_shape_NEWSLETTER_message_extra/image_300.jpg)
  
 
-### 4_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra
-* link: [/4_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra](4_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra)  
-![](4_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra/3dpr_300.png)  ![](4_width_1_height_6_mm_depth_oobb_shape_TERM LETTER_message_extra/image_300.jpg)
+### 4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra
+* link: [/4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra](4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra)  
+![](4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra/3dpr_300.png)  ![](4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra/image_300.jpg)
  
 
 ### 5_width_1_height_3_mm_depth_unicorn_test_filename_extra

@@ -307,7 +307,7 @@ def make_scad(**kwargs):
                 parts.append(part)
 
         #bar magnets
-        messages = ["LETTERS","TERM LETTER","NEWSLETTER"]
+        messages = ["LETTERS","TERM_LETTER","NEWSLETTER"]
         widths = [4,3]
         for wid in widths:
             for m in messages:
