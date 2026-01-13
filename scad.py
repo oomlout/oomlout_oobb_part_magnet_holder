@@ -307,7 +307,8 @@ def make_scad(**kwargs):
                 parts.append(part)
 
         #bar magnets
-        messages = ["LETTERS","TERM_LETTER","NEWSLETTER"]
+        #messages = ["LETTERS","TERM_LETTER","NEWSLETTER"]
+        messages = messages
         widths = [4,3]
         for wid in widths:
             for m in messages:
@@ -408,7 +409,7 @@ def make_scad(**kwargs):
         sort.append("height")
         sort.append("thickness")
         sort.append("message")
-        #sort.append("extra")
+        sort.append("extra")
         
         scad_help.generate_navigation(sort = sort)
 
