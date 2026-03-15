@@ -27,7 +27,7 @@ parts:
       magnet_width: 10
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_20_mm_length_10_mm_width_2_mm_depth_magnet_extra
@@ -35,12 +35,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 2.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -79,7 +78,7 @@ parts:
       magnet_width: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_20_mm_length_3_mm_width_2_mm_depth_magnet_1_multiple_x_2_multiple_y_extra
@@ -87,12 +86,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 2.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -128,7 +126,7 @@ parts:
       magnet_shape: cylinder
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_cylinder_10_mm_diameter_3_mm_depth_magnet_extra
@@ -136,12 +134,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -180,7 +177,7 @@ parts:
       magnet_width: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_20_mm_length_3_mm_width_3_mm_depth_magnet_1_multiple_x_2_multiple_y_extra
@@ -188,12 +185,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -230,7 +226,7 @@ parts:
       magnet_width: 4.5
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_20_mm_length_4_5_mm_width_3_mm_depth_magnet_extra
@@ -238,12 +234,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -280,7 +275,7 @@ parts:
       magnet_width: 6
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_20_mm_length_6_mm_width_3_mm_depth_magnet_extra
@@ -288,12 +283,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -325,7 +319,7 @@ parts:
       magnet_shape: import
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: cylinder_test_filename_extra
@@ -333,14 +327,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder_handle
       oomp_type: part
-      overwrite: false
+      overwrite: true
       shape_file: working.stl
       shape_full: import
       thickness: 3
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
       width: 3
     manufacturer: ''
@@ -418,7 +411,7 @@ parts:
       magnet_shape: import
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: unicorn_test_filename_extra
@@ -426,14 +419,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder_handle
       oomp_type: part
-      overwrite: false
+      overwrite: true
       shape_file: working.stl
       shape_full: import
       thickness: 3
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
       width: 3
     manufacturer: ''
@@ -469,7 +461,7 @@ parts:
       magnet_shape: cylinder
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_cylinder_6_mm_diameter_6_mm_depth_magnet_extra
@@ -477,12 +469,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 6.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 3
     manufacturer: ''
@@ -613,6 +604,774 @@ parts:
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: cylinder_30_mm_diameter_shape_CLAIRE_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_DR_TRAN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Tran_message
+      filter: ''
+      height: 1
+      message: Dr_Tran
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message
+      filter: ''
+      height: 1
+      message: Dr_Barodawala
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message
+      filter: ''
+      height: 1
+      message: Dr_Beishon
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message
+      filter: ''
+      height: 1
+      message: Dr_Bellwood
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message
+      filter: ''
+      height: 1
+      message: Dr_Cheah
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Hale_message
+      filter: ''
+      height: 1
+      message: Dr_Hale
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message
+      filter: ''
+      height: 1
+      message: Dr_Illsley
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message
+      filter: ''
+      height: 1
+      message: Dr_Jarbawi
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Maj_message
+      filter: ''
+      height: 1
+      message: Dr_Maj
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message
+      filter: ''
+      height: 1
+      message: Dr_McMurtry
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message
+      filter: ''
+      height: 1
+      message: Dr_Scampion
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Soo_message
+      filter: ''
+      height: 1
+      message: Dr_Soo
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Strong_message
+      filter: ''
+      height: 1
+      message: Dr_Strong
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Tan_message
+      filter: ''
+      height: 1
+      message: Dr_Tan
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message
+      filter: ''
+      height: 1
+      message: Dr_Thompson
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Todd_message
+      filter: ''
+      height: 1
+      message: Dr_Todd
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
       oomp_description_main: 3_width_1_height_6_mm_depth
       oomp_manufacturer: ''
       oomp_mode: oobb
@@ -827,6 +1586,54 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message
+      filter: ''
+      height: 1
+      message: Prof_Clegg
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   3_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_SPELLING_message_extra:
     classification: oobb
     color: ''
@@ -923,6 +1730,374 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  3_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_AARON_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra
+    kwargs:
+      extra: oobb_shape_AARON_message
+      filter: ''
+      height: 1
+      message: AARON
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_AARON_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_A_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_A_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_A_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_A_message_extra
+    kwargs:
+      extra: oobb_shape_A_message
+      filter: ''
+      height: 1
+      message: A
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_A_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_CLAIRE_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra
+    kwargs:
+      extra: oobb_shape_CLAIRE_message
+      filter: ''
+      height: 1
+      message: CLAIRE
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_CLAIRE_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_DR_TRAN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_DR_TRAN_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_DR_TRAN_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_DR_TRAN_message_extra
+    kwargs:
+      extra: oobb_shape_DR_TRAN_message
+      filter: ''
+      height: 1
+      message: DR_TRAN
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_DR_TRAN_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_McMurtry_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_McMurtry_message
+      filter: ''
+      height: 1
+      message: Dr_McMurtry
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_McMurtry_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_HELEN_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra
+    kwargs:
+      extra: oobb_shape_HELEN_message
+      filter: ''
+      height: 1
+      message: HELEN
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_HELEN_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_HOMEWORK_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra
+    kwargs:
+      extra: oobb_shape_HOMEWORK_message
+      filter: ''
+      height: 1
+      message: HOMEWORK
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_HOMEWORK_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_H_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_H_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_H_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_H_message_extra
+    kwargs:
+      extra: oobb_shape_H_message
+      filter: ''
+      height: 1
+      message: H
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_H_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   3_width_1_height_6_mm_depth_oobb_shape_LETTERS_message_extra:
     classification: oobb
     color: ''
@@ -962,6 +2137,52 @@ parts:
       shape_full: oobb
       thickness: 6
       typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_MATH_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra
+    kwargs:
+      extra: oobb_shape_MATH_message
+      filter: ''
+      height: 1
+      message: MATH
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_MATH_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
       type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
       width: 3
     manufacturer: ''
@@ -1017,6 +2238,98 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  3_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_SPELLING_message_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra
+    kwargs:
+      extra: oobb_shape_SPELLING_message
+      filter: ''
+      height: 1
+      message: SPELLING
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_SPELLING_message_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  3_width_1_height_6_mm_depth_oobb_shape_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_extra
+    description_main: 3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_3_width_1_height_6_mm_depth_oobb_shape_extra
+    kwargs:
+      extra: oobb_shape
+      filter: ''
+      height: 1
+      message: ''
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_extra
+      oomp_description_main: 3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: true
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 3
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   4_width_1_height_3_5_mm_depth_hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra:
     classification: oobb
     color: ''
@@ -1044,7 +2357,7 @@ parts:
       magnet_shape: cylinder
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_cylinder_12_mm_diameter_3_mm_depth_magnet_extra
@@ -1052,12 +2365,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 4
     manufacturer: ''
@@ -1096,7 +2408,7 @@ parts:
       magnet_width: 9.5
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: hardware_magnet_rectangle_29_mm_length_9_5_mm_width_3_mm_depth_magnet_1_multiple_x_1_multiple_y_extra
@@ -1104,12 +2416,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder
       oomp_type: part
-      overwrite: false
+      overwrite: true
       thickness: 3.5
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder
       width: 4
     manufacturer: ''
@@ -1141,7 +2452,7 @@ parts:
       magnet_shape: import
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: unicorn_test_filename_extra
@@ -1149,14 +2460,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder_handle
       oomp_type: part
-      overwrite: false
+      overwrite: true
       shape_file: working.stl
       shape_full: import
       thickness: 3
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
       width: 4
     manufacturer: ''
@@ -1287,6 +2597,774 @@ parts:
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: cylinder_30_mm_diameter_shape_CLAIRE_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_DR_TRAN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Tran_message
+      filter: ''
+      height: 1
+      message: Dr_Tran
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Tran_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message
+      filter: ''
+      height: 1
+      message: Dr_Barodawala
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Barodawala_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message
+      filter: ''
+      height: 1
+      message: Dr_Beishon
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Beishon_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message
+      filter: ''
+      height: 1
+      message: Dr_Bellwood
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Bellwood_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message
+      filter: ''
+      height: 1
+      message: Dr_Cheah
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Cheah_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Hale_message
+      filter: ''
+      height: 1
+      message: Dr_Hale
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Hale_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message
+      filter: ''
+      height: 1
+      message: Dr_Illsley
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Illsley_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message
+      filter: ''
+      height: 1
+      message: Dr_Jarbawi
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Jarbawi_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Maj_message
+      filter: ''
+      height: 1
+      message: Dr_Maj
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Maj_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message
+      filter: ''
+      height: 1
+      message: Dr_McMurtry
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_McMurtry_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message
+      filter: ''
+      height: 1
+      message: Dr_Scampion
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Scampion_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Soo_message
+      filter: ''
+      height: 1
+      message: Dr_Soo
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Soo_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Strong_message
+      filter: ''
+      height: 1
+      message: Dr_Strong
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Strong_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Tan_message
+      filter: ''
+      height: 1
+      message: Dr_Tan
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Tan_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message
+      filter: ''
+      height: 1
+      message: Dr_Thompson
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Thompson_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Dr_Todd_message
+      filter: ''
+      height: 1
+      message: Dr_Todd
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Dr_Todd_message_extra
       oomp_description_main: 4_width_1_height_6_mm_depth
       oomp_manufacturer: ''
       oomp_mode: oobb
@@ -1501,6 +3579,54 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+    kwargs:
+      extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message
+      filter: ''
+      height: 1
+      message: Prof_Clegg
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: cylinder_30_mm_diameter_shape_Prof_Clegg_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_cylinder
+      shape_depth: 6
+      shape_full: cylinder_30_mm_diameter
+      shape_radius: 15.0
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   4_width_1_height_6_mm_depth_cylinder_30_mm_diameter_shape_SPELLING_message_extra:
     classification: oobb
     color: ''
@@ -1597,6 +3723,1040 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  4_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_AARON_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_AARON_message_extra
+    kwargs:
+      extra: oobb_shape_AARON_message
+      filter: ''
+      height: 1
+      message: AARON
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_AARON_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_A_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_A_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_A_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_A_message_extra
+    kwargs:
+      extra: oobb_shape_A_message
+      filter: ''
+      height: 1
+      message: A
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_A_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_CLAIRE_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_CLAIRE_message_extra
+    kwargs:
+      extra: oobb_shape_CLAIRE_message
+      filter: ''
+      height: 1
+      message: CLAIRE
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_CLAIRE_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_DR_TRAN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Tran_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Tran_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Tran_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Tran_message
+      filter: ''
+      height: 1
+      message: Dr_Tran
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Tran_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Barodawala_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Barodawala_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Barodawala_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Barodawala_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Barodawala_message
+      filter: ''
+      height: 1
+      message: Dr_Barodawala
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Barodawala_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Beishon_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Beishon_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Beishon_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Beishon_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Beishon_message
+      filter: ''
+      height: 1
+      message: Dr_Beishon
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Beishon_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Bellwood_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Bellwood_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Bellwood_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Bellwood_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Bellwood_message
+      filter: ''
+      height: 1
+      message: Dr_Bellwood
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Bellwood_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Cheah_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Cheah_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Cheah_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Cheah_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Cheah_message
+      filter: ''
+      height: 1
+      message: Dr_Cheah
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Cheah_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Hale_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Hale_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Hale_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Hale_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Hale_message
+      filter: ''
+      height: 1
+      message: Dr_Hale
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Hale_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Illsley_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Illsley_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Illsley_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Illsley_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Illsley_message
+      filter: ''
+      height: 1
+      message: Dr_Illsley
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Illsley_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Jarbawi_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Jarbawi_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Jarbawi_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Jarbawi_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Jarbawi_message
+      filter: ''
+      height: 1
+      message: Dr_Jarbawi
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Jarbawi_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Maj_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Maj_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Maj_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Maj_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Maj_message
+      filter: ''
+      height: 1
+      message: Dr_Maj
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Maj_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_McMurtry_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_McMurtry_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_McMurtry_message
+      filter: ''
+      height: 1
+      message: Dr_McMurtry
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_McMurtry_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Scampion_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Scampion_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Scampion_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Scampion_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Scampion_message
+      filter: ''
+      height: 1
+      message: Dr_Scampion
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Scampion_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Soo_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Soo_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Soo_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Soo_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Soo_message
+      filter: ''
+      height: 1
+      message: Dr_Soo
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Soo_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Strong_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Strong_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Strong_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Strong_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Strong_message
+      filter: ''
+      height: 1
+      message: Dr_Strong
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Strong_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Tan_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Tan_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Tan_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Tan_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Tan_message
+      filter: ''
+      height: 1
+      message: Dr_Tan
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Tan_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Thompson_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Thompson_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Thompson_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Thompson_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Thompson_message
+      filter: ''
+      height: 1
+      message: Dr_Thompson
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Thompson_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Dr_Todd_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Dr_Todd_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Todd_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Dr_Todd_message_extra
+    kwargs:
+      extra: oobb_shape_Dr_Todd_message
+      filter: ''
+      height: 1
+      message: Dr_Todd
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Dr_Todd_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_HELEN_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_HELEN_message_extra
+    kwargs:
+      extra: oobb_shape_HELEN_message
+      filter: ''
+      height: 1
+      message: HELEN
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_HELEN_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_HOMEWORK_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_HOMEWORK_message_extra
+    kwargs:
+      extra: oobb_shape_HOMEWORK_message
+      filter: ''
+      height: 1
+      message: HOMEWORK
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_HOMEWORK_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_H_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_H_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_H_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_H_message_extra
+    kwargs:
+      extra: oobb_shape_H_message
+      filter: ''
+      height: 1
+      message: H
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_H_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   4_width_1_height_6_mm_depth_oobb_shape_LETTERS_message_extra:
     classification: oobb
     color: ''
@@ -1623,6 +4783,53 @@ parts:
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: oobb_shape_LETTERS_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_MATH_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_MATH_message_extra
+    kwargs:
+      extra: oobb_shape_MATH_message
+      filter: ''
+      height: 1
+      message: MATH
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_MATH_message_extra
       oomp_description_main: 4_width_1_height_6_mm_depth
       oomp_manufacturer: ''
       oomp_mode: oobb
@@ -1691,6 +4898,100 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  4_width_1_height_6_mm_depth_oobb_shape_Prof_Clegg_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_Prof_Clegg_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Prof_Clegg_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_Prof_Clegg_message_extra
+    kwargs:
+      extra: oobb_shape_Prof_Clegg_message
+      filter: ''
+      height: 1
+      message: Prof_Clegg
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_Prof_Clegg_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
+  4_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_SPELLING_message_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_SPELLING_message_extra
+    kwargs:
+      extra: oobb_shape_SPELLING_message
+      filter: ''
+      height: 1
+      message: SPELLING
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_SPELLING_message_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   4_width_1_height_6_mm_depth_oobb_shape_TERM_LETTER_message_extra:
     classification: oobb
     color: ''
@@ -1738,6 +5039,53 @@ parts:
     project_name: C:\gh\oomlout_oobb_part_magnet_holder
     size: magnet_holder_handle
     type: part
+  4_width_1_height_6_mm_depth_oobb_shape_extra:
+    classification: oobb
+    color: ''
+    description_extra: oobb_shape_extra
+    description_main: 4_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: oobb_part_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_extra
+    id_oobb: oobb_part_oomlout_oobb_part_magnet_holder_magnet_holder_handle_4_width_1_height_6_mm_depth_oobb_shape_extra
+    kwargs:
+      extra: oobb_shape
+      filter: ''
+      height: 1
+      message: ''
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: oobb
+      oomp_color: ''
+      oomp_description_extra: oobb_shape_extra
+      oomp_description_main: 4_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: oobb
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: magnet_holder_handle
+      oomp_type: part
+      overwrite: false
+      shape: oobb_rounded_rectangle
+      shape_depth: 6
+      shape_full: oobb
+      thickness: 6
+      typ: all
+      type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
+      width: 4
+    manufacturer: ''
+    name: magnet_holder_handle
+    part_number: ''
+    project_name: C:\gh\oomlout_oobb_part_magnet_holder
+    size: magnet_holder_handle
+    type: part
   5_width_1_height_3_mm_depth_unicorn_test_filename_extra:
     classification: oobb
     color: ''
@@ -1761,7 +5109,7 @@ parts:
       magnet_shape: import
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: oobb
       oomp_color: ''
       oomp_description_extra: unicorn_test_filename_extra
@@ -1769,14 +5117,13 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: oobb
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: magnet_holder_handle
       oomp_type: part
-      overwrite: false
+      overwrite: true
       shape_file: working.stl
       shape_full: import
       thickness: 3
-      typ: all
       type: oomlout_oobb_part_magnet_holder_magnet_holder_handle
       width: 5
     manufacturer: ''

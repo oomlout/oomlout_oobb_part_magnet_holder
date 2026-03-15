@@ -268,6 +268,24 @@ def make_scad(**kwargs):
         
         
         messages = ["","A","H","HELEN", "AARON", "CLAIRE", "MATH", "SPELLING", "HOMEWORK"]
+        #add doctors, dr tran, dc McMurtry, dr Hale, Dr soo, Dr tan, Dr Illsley, Dr Scampion, Dr Maj, Dr Todd, Dr Bellwood, Dr Jarbawi, Dr Thompson, Dr Barodawala, Dr Cheah, Dr Strong, Dr Beishon, Prof Clegg.
+        messages.append("Dr_Tran")
+        messages.append("Dr_McMurtry")
+        messages.append("Dr_Hale")
+        messages.append("Dr_Soo")
+        messages.append("Dr_Tan")
+        messages.append("Dr_Illsley")
+        messages.append("Dr_Scampion")
+        messages.append("Dr_Maj")
+        messages.append("Dr_Todd")
+        messages.append("Dr_Bellwood")
+        messages.append("Dr_Jarbawi")
+        messages.append("Dr_Thompson")
+        messages.append("Dr_Barodawala")
+        messages.append("Dr_Cheah")
+        messages.append("Dr_Strong")
+        messages.append("Dr_Beishon")
+        messages.append("Prof_Clegg")
 
         for m in messages:
 
@@ -612,6 +630,7 @@ def get_magnet_holder_handle_cylinder(thing, **kwargs):
     extra = kwargs.get("extra", "")
     
     message = kwargs.get("message", "")
+    message = message.replace("_", " ")
 
     #shape
     shape = kwargs.get("shape", "oobb_cylinder")
